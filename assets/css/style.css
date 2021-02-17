@@ -1,7 +1,9 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Georgia, serif;;
   font-size: 16px;
   line-height: 1;
+  background-color: rgba(15, 15, 15,0.6);
+  color:white;
 }
 
 textarea{
@@ -17,18 +19,19 @@ textarea{
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: white;
+  text-shadow: 2px black;
   border-radius: 0;
   border-bottom: 10px solid black;
   margin-top: 5px; 
 }
 
 .scheduler-title{
-  font-family: 'Courier New', "monospace";
+  font-family: Georgia, serif;;
   font-size: 60px;
-  border:outset rgba(94, 94, 94, 0.1);
-  background-color: rgba(94, 94, 94, 0.1);
-  box-shadow: 0 9px #999;
+  border:outset rgba(94, 94, 94, 0.3);
+  background-color: rgba(94, 94, 94, 0.3);
+  box-shadow: 0 4px #999;
   margin-bottom:10px;
 }
 
@@ -36,10 +39,12 @@ textarea{
   margin: top 10px;
   padding-top: 5px;
   font-style: oblique;
+  color:black;
 }
 
 p#currentDay.lead {
-  font-style: bold;
+  font: size 20px;;
+  text-shadow: 4px white;
 }
 
 .description{
@@ -58,9 +63,9 @@ p#currentDay.lead {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: white;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border: 1px inset #000000;
   font-style: bold;
   text-align: center;
   padding-top: 10px;
@@ -90,10 +95,19 @@ p#currentDay.lead {
   cursor: pointer;
   outline: none;
   color: #fff;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 4px #999;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+footer {
+  background-color: #3c3d41;
+  padding: 40px 20px;
+  color: rgba(255,255,255,1.00);
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 6px;
+}
+
