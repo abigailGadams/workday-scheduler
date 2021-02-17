@@ -26,9 +26,12 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <h1 class="scheduler-title">Work Day Scheduler</h1>
+      <div class = "summary">
+        <p class="lead">A simple calendar app for scheduling your work day</p>
+      </div>
+        <p id="currentDay" class="lead"></p>
+      
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
@@ -36,47 +39,47 @@
       <div class="row">
         <div class="hour col-2">9AM</div>
         <textarea id="0" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="0" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">10AM</div>
         <textarea id="1" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="1" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">11AM</div>
         <textarea id="2" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="2" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">12PM</div>
         <textarea id="3" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="3" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">1PM</div>
         <textarea id="4" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="4" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">2PM</div>
         <textarea id="5" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="5" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">3PM</div>
         <textarea id="6" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="6" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">4PM</div>
         <textarea id="7" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="7" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
       <div class="row">
         <div class="hour col-2">5PM</div>
         <textarea id="8" class="description col-8"></textarea>
-        <button class="saveBtn col-2"><i class="fas fa-save"></i></button>
+        <button data-id="8" class="saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
 
       <!-- Rows and columns from bootstrap -->
