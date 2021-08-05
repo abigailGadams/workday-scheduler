@@ -1,9 +1,9 @@
 # Workday Schedule Manager
 
 # Purpose
-As a Technical Program Manager with many time commitments
-I want to add important events to a daily planner
-So that I can manage my time effectively
+  As a Technical Program Manager with many time commitments
+  I want to add important events to a daily planner
+  So that I can manage my time effectively
 
 # Application
 
